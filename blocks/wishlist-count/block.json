@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "hdwish/wishlist-count",
+	"title": "Wishlist Count",
+	"description": "Shows a heart icon and the visitor's wishlist item count, for placing in your header next to the Mini-Cart.",
+	"category": "woocommerce",
+	"keywords": [ "wishlist", "favorite", "header", "count" ],
+	"textdomain": "hdwebmobile-wishlist",
+	"supports": {
+		"html": false,
+		"align": false
+	},
+	"editorScript": "hdwish-wishlist-count-editor"
+}

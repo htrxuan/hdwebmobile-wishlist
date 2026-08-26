@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "hdwish/wishlist-button",
+	"title": "Wishlist Button",
+	"description": "Adds an Add to Wishlist button for the current product. Insert this inside a Product Collection's product template to show it on the Shop page.",
+	"category": "woocommerce-product-elements",
+	"keywords": [ "wishlist", "favorite", "save", "WooCommerce" ],
+	"textdomain": "hdwebmobile-wishlist",
+	"usesContext": [ "postId", "query", "queryId" ],
+	"ancestor": [ "woocommerce/product-template", "woocommerce/single-product", "core/post-template" ],
+	"supports": {
+		"html": false,
+		"align": false
+	},
+	"editorScript": "hdwish-wishlist-button-editor"
+}
