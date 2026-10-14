@@ -34,6 +34,9 @@ Recent WooCommerce versions ship an experimental, opt-in "Wishlists" feature (Wo
 * Guest wishlists are stored in a browser cookie — if a visitor blocks or clears cookies, their guest wishlist won't persist between visits (logging in avoids this entirely)
 * No "most wishlisted products" analytics dashboard in this version
 
+= Enjoying this plugin? =
+If it helps your site, please consider [leaving an honest review on WordPress.org](https://wordpress.org/support/plugin/hdwebmobile-wishlist/reviews/#new-post) -- it helps other WordPress users find it. Found a problem or have an idea? Please [open a support topic](https://wordpress.org/support/plugin/hdwebmobile-wishlist/) first so it can be fixed.
+
 == Installation ==
 
 1. Upload the plugin files to the `/wp-content/plugins/hdwebmobile-wishlist` directory, or install the plugin through the WordPress plugins screen directly.
