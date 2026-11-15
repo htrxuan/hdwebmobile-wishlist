@@ -4,7 +4,7 @@
  * Plugin Name: HDWebmobile Wishlist
  * Plugin URI: https://hdwebmobile.com/plugins/hdwebmobile-wishlist/
  * Description: Let customers save products to a wishlist. Built and verified against WooCommerce's block-based Shop page, not just classic themes.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: htrxuan - Han Tran
  * Author URI: https://hdwebmobile.com/
  * License: GPLv2 or later
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('HDWISH_VERSION', '1.0.0');
+define('HDWISH_VERSION', '1.0.1');
 define('HDWISH_PLUGIN_FILE', __FILE__);
 define('HDWISH_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('HDWISH_PLUGIN_URL', plugin_dir_url(__FILE__));

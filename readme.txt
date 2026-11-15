@@ -5,7 +5,7 @@ Tags: woocommerce, wishlist, favorites, save for later, save products
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -75,6 +75,9 @@ Open the Site Editor, edit your header template, and insert the **Wishlist Count
 5. The header Wishlist Count block, showing a live item-count badge next to the Mini-Cart.
 
 == Changelog ==
+
+= 1.0.1 =
+* The WooCommerce > HDWebmobile Overview page now has a short introduction to Store Guardian, a separate paid plugin that test-buys from your checkout every hour. It is hidden once Store Guardian is active. No changes to this plugin's own features.
 
 = 1.0.0 =
 * Initial release: block-theme-compatible wishlist button block, classic hook fallback, guest cookie wishlist with merge-on-login, Store-API-driven add to cart, auto-created Wishlist page, configurable settings.
